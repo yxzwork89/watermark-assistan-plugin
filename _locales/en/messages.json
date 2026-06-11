@@ -1,0 +1,4 @@
+{
+  "extName": { "message": "Watermark Assistant" },
+  "extDesc": { "message": "Add semi-transparent watermark text to ID/document photos. Pure local processing, no upload." }
+}

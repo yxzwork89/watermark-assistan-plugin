@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watermark Assistant — Chrome Extension</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", "Helvetica Neue", "PingFang SC", sans-serif;
+      color: #1a2332; background: #f5f8fc; line-height: 1.6;
+    }
+    .hero {
+      text-align: center; padding: 80px 24px 60px;
+      background: linear-gradient(135deg, #2563EB 0%, #3B82F6 100%);
+      color: #fff;
+    }
+    .hero img { width: 80px; height: 80px; border-radius: 20px; margin-bottom: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.2); }
+    .hero h1 { font-size: 36px; font-weight: 800; margin-bottom: 12px; }
+    .hero p { font-size: 18px; opacity: 0.9; max-width: 500px; margin: 0 auto 32px; }
+    .hero-btn {
+      display: inline-block; padding: 14px 32px; background: #fff; color: #2563EB;
+      border-radius: 12px; font-size: 16px; font-weight: 700; text-decoration: none;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15); transition: transform 0.2s;
+    }
+    .hero-btn:hover { transform: translateY(-2px); }
+    .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+    .features {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px; padding: 60px 0;
+    }
+    .feature {
+      background: #fff; border-radius: 16px; padding: 28px;
+      border: 1px solid rgba(148,163,184,0.14);
+      box-shadow: 0 4px 16px rgba(17,24,39,0.04);
+    }
+    .feature-icon { font-size: 32px; margin-bottom: 12px; }
+    .feature h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+    .feature p { font-size: 13px; color: #64748b; }
+    .screenshots { padding: 40px 0; }
+    .screenshots h2 { text-align: center; font-size: 24px; font-weight: 800; margin-bottom: 32px; }
+    .screenshot-grid {
+      max-width: 800px; margin: 0 auto;
+    }
+    .screenshot-grid img {
+      width: 100%; border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(17,24,39,0.1);
+      border: 1px solid rgba(148,163,184,0.12);
+    }
+    .i18n { text-align: center; padding: 40px 0; }
+    .i18n h2 { font-size: 24px; font-weight: 800; margin-bottom: 16px; }
+    .lang-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: 600px; margin: 0 auto; }
+    .lang-tag {
+      padding: 6px 14px; background: rgba(37,99,235,0.08); color: #2563EB;
+      border-radius: 8px; font-size: 13px; font-weight: 600;
+    }
+    .privacy {
+      background: #fff; border-radius: 16px; padding: 32px; margin: 40px 0;
+      text-align: center; border: 1px solid rgba(148,163,184,0.14);
+    }
+    .privacy h2 { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
+    .privacy p { color: #64748b; font-size: 14px; }
+    footer {
+      text-align: center; padding: 32px 24px; color: #94a3b8; font-size: 12px;
+      border-top: 1px solid rgba(148,163,184,0.12);
+    }
+    footer a { color: #2563EB; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <img src="assets/icon128.png" alt="Watermark Assistant">
+    <h1>Watermark Assistant</h1>
+    <p>Add semi-transparent watermarks to ID and document photos — all processing stays local in your browser</p>
+    <a class="hero-btn" href="releases/Watermark-Assistan-Plugin-V1.0.0.zip">⬇ Download v1.0.0</a>
+  </section>
+
+  <div class="container">
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🖼️</div>
+        <h3>Batch Processing</h3>
+        <p>Select multiple images and add watermarks in one go, saving you time</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">✏️</div>
+        <h3>Custom Watermark</h3>
+        <p>Adjust text, color, size, angle, opacity, and spacing to your needs</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🎯</div>
+        <h3>Quick Presets</h3>
+        <p>Built-in presets for banking, rental, exams, and other common scenarios</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔌</div>
+        <h3>Page Embedding</h3>
+        <p>Auto-detects upload buttons on web pages, insert watermarked images inline</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔒</div>
+        <h3>Image Locking</h3>
+        <p>Lock selected images to prevent accidental deletion</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔐</div>
+        <h3>Privacy First</h3>
+        <p>All image processing happens locally — zero data leaves your browser</p>
+      </div>
+    </div>
+
+    <section class="screenshots">
+      <h2>Preview</h2>
+      <div class="screenshot-grid">
+        <img src="assets/screenshot-1280x800.png" alt="Preview">
+      </div>
+    </section>
+
+    <section class="i18n">
+      <h2>18 Languages Supported</h2>
+      <div class="lang-list">
+        <span class="lang-tag">简体中文</span>
+        <span class="lang-tag">繁體中文</span>
+        <span class="lang-tag">English</span>
+        <span class="lang-tag">日本語</span>
+        <span class="lang-tag">한국어</span>
+        <span class="lang-tag">العربية</span>
+        <span class="lang-tag">Español</span>
+        <span class="lang-tag">Français</span>
+        <span class="lang-tag">Deutsch</span>
+        <span class="lang-tag">Italiano</span>
+        <span class="lang-tag">Português</span>
+        <span class="lang-tag">Русский</span>
+        <span class="lang-tag">Nederlands</span>
+        <span class="lang-tag">Polska</span>
+        <span class="lang-tag">Svenska</span>
+        <span class="lang-tag">Türkçe</span>
+        <span class="lang-tag">Tiếng Việt</span>
+        <span class="lang-tag">हिन्दी</span>
+      </div>
+    </section>
+
+    <div class="privacy">
+      <h2>🔐 Your Privacy Matters</h2>
+      <p>All image processing happens locally in your browser — nothing is uploaded to any server.<br>No personal data collected. No third-party tracking.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Watermark Assistant &copy; 2026 &middot; <a href="https://github.com/yxzwork89/watermark-assistant-plugin">GitHub</a></p>
+  </footer>
+</body>
+</html>
