@@ -32,3 +32,12 @@
 - 营业执照图片如何添加“仅供某用途”水印: https://yxzwork89.github.io/watermark-assistan-plugin/articles/business-license-watermark.html
 - 不上传服务器的图片水印工具适合哪些场景？: https://yxzwork89.github.io/watermark-assistan-plugin/articles/local-watermark-tool.html
 - How to watermark ID photos before uploading them online: https://yxzwork89.github.io/watermark-assistan-plugin/articles/how-to-watermark-id-photos.html
+
+## English guide hub
+- https://yxzwork89.github.io/watermark-assistan-plugin/en/
+- Watermark ID documents for KYC and identity verification: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-id-for-kyc-verification.html
+- Watermark documents for rental applications and tenant screening: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-documents-for-rental-application.html
+- Watermark HR onboarding documents before sending them online: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-hr-onboarding-documents.html
+- Watermark certificate scans before uploading or sharing them: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-certificate-scans.html
+- Watermark business license and company documents for online uploads: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-business-license-documents.html
+- Local Chrome watermark extension for private document photos: https://yxzwork89.github.io/watermark-assistan-plugin/articles/local-chrome-watermark-extension.html
