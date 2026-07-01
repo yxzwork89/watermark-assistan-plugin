@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">证件水印助手</title>
+  <desc id="desc">给身份证、证件照和文件图片添加隐私水印，浏览器本地处理，不上传服务器。</desc>
+  <rect width="1200" height="630" fill="#f7f9fc"/>
+  <rect x="70" y="70" width="1060" height="490" rx="20" fill="#ffffff" stroke="#dbe3ef"/>
+  <text x="110" y="170" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#2563eb">Chrome Extension</text>
+  <text x="110" y="270" font-family="Arial, sans-serif" font-size="82" font-weight="800" fill="#172033">证件水印助手</text>
+  <text x="112" y="335" font-family="Arial, sans-serif" font-size="32" fill="#536073">给身份证、证件照和文件图片添加隐私水印，浏览器本地处理，不上传服务器。</text>
+  <rect x="780" y="145" width="250" height="330" rx="12" fill="#eef4ff" stroke="#cfd8e6"/>
+  <line x1="810" y1="210" x2="1000" y2="210" stroke="#cfd8e6" stroke-width="8"/>
+  <line x1="810" y1="255" x2="970" y2="255" stroke="#cfd8e6" stroke-width="8"/>
+  <line x1="810" y1="300" x2="1010" y2="300" stroke="#cfd8e6" stroke-width="8"/>
+  <g transform="translate(725 345) rotate(-24)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="45" font-weight="800" fill="rgba(220,38,38,0.55)">仅供 XX 用途</text>
+  </g>
+  <text x="112" y="445" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">本地处理 · 批量水印 · 不上传服务器</text>
+</svg>

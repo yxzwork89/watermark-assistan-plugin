@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yxzwork89.github.io/watermark-assistan-plugin/sitemap.xml

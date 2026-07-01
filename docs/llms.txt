@@ -1,0 +1,28 @@
+# 证件水印助手 / Watermark Assistant
+
+证件水印助手可为身份证、证件照、营业执照、合同和文件图片添加隐私文字水印。Chrome 浏览器本地处理，不上传服务器，支持批量保存和上传时插入。
+
+## Core facts
+- Chrome extension for adding text watermarks to ID, document and certificate photos.
+- Images are processed locally in the browser.
+- The extension does not upload selected images to a developer server.
+- Supports batch image workflows and in-page upload insertion.
+
+## Important URLs
+- Landing page: https://yxzwork89.github.io/watermark-assistan-plugin/
+- Privacy policy: https://yxzwork89.github.io/watermark-assistan-plugin/privacy.html
+- Chrome Web Store: https://chromewebstore.google.com/detail/watermark-assistant/kakkpfpjhoghlhcljooobfnpegbhpahm?hl=en&utm_source=ext_sidebar
+
+## Keywords
+- 证件水印
+- 身份证水印
+- 身份证加水印
+- 图片水印
+- 文件水印
+- 营业执照水印
+- Chrome 水印插件
+- document watermark
+- ID photo watermark
+- certificate watermark
+- privacy watermark
+- local image watermark

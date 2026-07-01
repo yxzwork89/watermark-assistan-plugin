@@ -1,0 +1,16 @@
+{
+  "name": "证件水印助手",
+  "short_name": "证件水印助手",
+  "description": "证件水印助手可为身份证、证件照、营业执照、合同和文件图片添加隐私文字水印。Chrome 浏览器本地处理，不上传服务器，支持批量保存和上传时插入。",
+  "start_url": "/watermark-assistan-plugin/",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/watermark-assistan-plugin/social-preview.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
