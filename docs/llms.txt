@@ -26,3 +26,9 @@
 - certificate watermark
 - privacy watermark
 - local image watermark
+## Long-tail guides
+- 上传身份证前为什么要加水印？: https://yxzwork89.github.io/watermark-assistan-plugin/articles/id-watermark-before-upload.html
+- 身份证复印件水印怎么写？常用模板和注意事项: https://yxzwork89.github.io/watermark-assistan-plugin/articles/id-copy-watermark-text.html
+- 营业执照图片如何添加“仅供某用途”水印: https://yxzwork89.github.io/watermark-assistan-plugin/articles/business-license-watermark.html
+- 不上传服务器的图片水印工具适合哪些场景？: https://yxzwork89.github.io/watermark-assistan-plugin/articles/local-watermark-tool.html
+- How to watermark ID photos before uploading them online: https://yxzwork89.github.io/watermark-assistan-plugin/articles/how-to-watermark-id-photos.html
