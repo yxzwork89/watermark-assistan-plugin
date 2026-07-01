@@ -41,3 +41,7 @@
 - Watermark certificate scans before uploading or sharing them: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-certificate-scans.html
 - Watermark business license and company documents for online uploads: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-business-license-documents.html
 - Local Chrome watermark extension for private document photos: https://yxzwork89.github.io/watermark-assistan-plugin/articles/local-chrome-watermark-extension.html
+- Watermark text examples for ID and document uploads: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-text-examples-for-documents.html
+- Watermark a passport scan before uploading it online: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-passport-scan-before-upload.html
+- Watermark proof of address documents for online verification: https://yxzwork89.github.io/watermark-assistan-plugin/articles/watermark-proof-of-address-documents.html
+- Safe document upload checklist for ID and verification files: https://yxzwork89.github.io/watermark-assistan-plugin/articles/safe-document-upload-checklist.html
